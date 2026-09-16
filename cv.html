@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CV (template)</title>
+<meta name="robots" content="noindex">
+<style>
+  :root{
+    --bg:#FAF8F5; --text:#1A1A1A; --soft:#6B6B6B; --accent:#2A5C4A; --rule:#D8D4CD; --wash:#F3EEE6;
+    --serif:"Source Serif 4",Georgia,"Songti SC",serif;
+    --mono:"DM Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+    --max:700px;
+  }
+  *{box-sizing:border-box}
+  html{font-size:16.5px}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:var(--serif);line-height:1.55;
+       -webkit-font-smoothing:antialiased}
+  .wrap{max-width:var(--max);margin:0 auto;padding:64px 26px 88px}
+  header{border-bottom:1px solid var(--rule);padding-bottom:18px;margin-bottom:30px}
+  h1{font-size:1.6rem;font-weight:600;margin:0 0 4px;letter-spacing:-.01em}
+  .role{font-family:var(--mono);font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--soft)}
+  .contact{margin-top:10px;font-family:var(--mono);font-size:.72rem;color:var(--soft);letter-spacing:.02em}
+  section{margin:0 0 30px}
+  h2{font-family:var(--mono);font-size:.7rem;font-weight:500;text-transform:uppercase;letter-spacing:.1em;
+     color:var(--soft);margin:0 0 12px;border-bottom:1px solid var(--rule);padding-bottom:6px}
+  ul{list-style:none;margin:0;padding:0}
+  li{margin:0 0 11px;padding-left:0}
+  .row{display:flex;justify-content:space-between;gap:18px;align-items:baseline;flex-wrap:wrap}
+  .what{font-weight:600}
+  .when{font-family:var(--mono);font-size:.7rem;color:var(--soft);white-space:nowrap}
+  .where{display:block;color:var(--soft);font-style:italic}
+  .detail{display:block;color:#3a3a3a;font-size:.94rem}
+  .ph{color:#9a9a9a;font-style:italic}
+  .tags{font-family:var(--mono);font-size:.74rem;color:var(--soft);line-height:1.9}
+  footer{margin-top:40px;padding-top:14px;border-top:1px solid var(--rule);
+         font-family:var(--mono);font-size:.66rem;color:var(--soft);text-transform:uppercase;letter-spacing:.05em}
+  a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(42,92,74,.3)}
+  @media print{body{background:#fff}.wrap{padding:0}.ph{color:#666}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1 class="ph">Your Name</h1>
+    <div class="role">PhD applicant · empirical international political economy</div>
+    <div class="contact"><span class="ph">email@example.com</span> · <span class="ph">yourdomain.com</span> · <span class="ph">github</span></div>
+  </header>
+
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li>
+        <div class="row"><span class="what ph">J.D., University Name</span><span class="when ph">2024–2027 (expected)</span></div>
+        <span class="detail ph">Concentration, honors, journal, relevant coursework</span>
+      </li>
+      <li>
+        <div class="row"><span class="what ph">M.A., University Name</span><span class="when ph">Year</span></div>
+        <span class="detail ph">Field · thesis title · advisor</span>
+      </li>
+      <li>
+        <div class="row"><span class="what ph">M.A., University Name</span><span class="when ph">Year</span></div>
+        <span class="detail ph">Field</span>
+      </li>
+      <li>
+        <div class="row"><span class="what ph">B.A., University Name</span><span class="when ph">Year</span></div>
+        <span class="detail ph">Double major / majors listed</span>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Research interests</h2>
+    <ul>
+      <li>Economic statecraft — export controls, sanctions, trade policy</li>
+      <li>U.S.–China technology competition and its firm-level effects</li>
+      <li>Empirical international political economy; research design and measurement</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Papers</h2>
+    <ul>
+      <li>
+        <div class="row"><span class="what ph">Title, working paper</span><span class="when ph">2027</span></div>
+        <span class="detail ph">One-line abstract · <a href="#" class="ph">PDF</a></span>
+      </li>
+      <li>
+        <div class="row"><span class="what ph">Title, course paper</span><span class="when ph">2026</span></div>
+        <span class="detail ph">One-line abstract</span>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Teaching &amp; research experience</h2>
+    <ul>
+      <li>
+        <div class="row"><span class="what ph">Research assistant, Professor Name</span><span class="when ph">Year–Year</span></div>
+        <span class="detail ph">What you did — data, coding, literature</span>
+      </li>
+      <li>
+        <div class="row"><span class="what ph">Teaching assistant, Course</span><span class="when ph">Term</span></div>
+        <span class="detail ph">Responsibilities</span>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Presentations</h2>
+    <ul>
+      <li>
+        <div class="row"><span class="what ph">Paper title</span><span class="when ph">Year</span></div>
+        <span class="detail ph">Conference or workshop, location</span>
+      </li>
+    </ul>
+    <span class="detail ph">Delete this section until it has something in it.</span>
+  </section>
+
+  <section>
+    <h2>Methods &amp; tools</h2>
+    <div class="tags">
+      R · Python · Quarto · LaTeX · data cleaning and validation · panel and event-study designs
+    </div>
+    <div class="tags ph" style="margin-top:6px">Adjust to what you would defend in an interview.</div>
+  </section>
+
+  <section>
+    <h2>Languages</h2>
+    <ul>
+      <li>Chinese (native) · English (fluent) · <span class="ph">others</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Awards &amp; fellowships</h2>
+    <ul>
+      <li>
+        <div class="row"><span class="what ph">Award name</span><span class="when ph">Year</span></div>
+      </li>
+    </ul>
+    <span class="detail ph">Delete this section until it has something in it.</span>
+  </section>
+
+  <section>
+    <h2>References</h2>
+    <p class="ph" style="margin:0">Available on request — or name two with titles and affiliations.</p>
+  </section>
+
+  <footer>Template layout · replace every italic entry · noindex</footer>
+
+</div>
+</body>
+</html>
