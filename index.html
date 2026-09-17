@@ -18,16 +18,17 @@ html{font-size:18.7px}
 body{margin:0;background:var(--bg);color:var(--text);font-family:var(--serif);line-height:1.62;-webkit-font-smoothing:antialiased}
 .wrap{max-width:calc(var(--max) + 320px);margin:0 auto;padding:64px 26px 88px}
 section > p, section > ul, section > .tags{max-width:var(--max)}
-header{border-bottom:1px solid var(--rule);padding-bottom:16px;margin-bottom:30px;display:flow-root}
+header{border-bottom:1px solid var(--rule);padding-bottom:16px;margin-bottom:30px;display:flex;align-items:center;justify-content:space-between;gap:30px}
+.hdrtext{min-width:0}
 h1{font-size:1.6rem;font-weight:500;margin:0 0 4px;letter-spacing:-.01em}
 .role{font-family:var(--mono);font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--soft)}
 .contact{margin-top:6px;font-family:var(--mono);font-size:.72rem;color:var(--soft);letter-spacing:.02em}
 nav{margin-top:14px;font-family:var(--mono);font-size:.74rem;letter-spacing:.04em}
-nav a,nav span.here{display:inline-block;margin-right:18px}
+nav a,nav span.here{display:inline-block;margin-right:18px;padding-bottom:2px}
 nav a{color:var(--accent);border-bottom:0}
 nav span.here{color:var(--text);border-bottom:1px solid var(--text)}
-.portrait{float:right;width:180px;height:180px;object-fit:cover;border-radius:3px;margin:2px 0 0 26px}
-@media (max-width:620px){.portrait{float:none;display:block;width:132px;height:132px;margin:0 0 16px}}
+.portrait{width:168px;height:168px;object-fit:cover;border-radius:3px;flex:0 0 auto}
+@media (max-width:620px){header{flex-direction:column-reverse;align-items:flex-start;gap:16px}.portrait{width:124px;height:124px}}
 section{margin:0 0 30px}
 h2{font-family:var(--mono);font-size:.7rem;font-weight:500;text-transform:uppercase;letter-spacing:.1em;color:var(--soft);margin:0 0 12px;border-bottom:1px solid var(--rule);padding-bottom:6px}
 ul{list-style:none;margin:0;padding:0}
@@ -54,15 +55,15 @@ code{font-family:var(--mono);font-size:.9em}
 <div class="wrap">
 
   <header>
-    <img class="portrait" src="portrait.jpg" alt="Jichun Zhang" loading="lazy" decoding="async">
-    <h1>Jichun Zhang 张计淳</h1>
-
-
-    <nav>
-    <span class="here">Bio</span>
+    <div class="hdrtext">
+      <h1>Jichun Zhang 张计淳</h1>
+      <nav>
+      <span class="here">Bio</span>
     <a href="research.html">Research</a>
     <a href="cv.html">CV</a>
-    </nav>
+      </nav>
+    </div>
+    <img class="portrait" src="portrait.jpg" alt="Jichun Zhang" loading="lazy" decoding="async">
   </header>
 
   <section>
