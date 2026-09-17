@@ -55,7 +55,9 @@ li{margin:0 0 11px}
 .tags{font-family:var(--mono);font-size:.74rem;color:var(--soft);line-height:1.9}
 p{margin:0 0 12px}
 .greet{margin-bottom:1.35em}
-footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--rule);font-family:var(--mono);font-size:.72rem;color:var(--soft);letter-spacing:.05em;display:flex;flex-direction:column;gap:7px}
+footer{margin-top:40px;padding-top:18px;border-top:1px solid var(--rule);font-family:var(--mono);font-size:.72rem;color:var(--soft);letter-spacing:.05em;display:flex;justify-content:space-between;align-items:flex-start;gap:40px}
+footer .footcol{display:flex;flex-direction:column;gap:7px}
+footer .footright{text-align:right;line-height:1.55}
 footer .contact{margin-top:0;font-size:.72rem}
 a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(42,65,91,0.3)}
 code{font-family:var(--mono);font-size:.9em}
@@ -90,8 +92,11 @@ code{font-family:var(--mono);font-size:.9em}
   </section>
 
   <footer>
-    <div class="contact">Email: jichun.zh@gmail.com</div>
-    <div class="copy">© 2026 Jichun Zhang</div>
+    <div class="footcol">
+      <div class="contact">Email: jichun.zh@gmail.com</div>
+      <div class="copy">© 2026 Jichun Zhang</div>
+    </div>
+    <div class="footright">J.D. candidate, George Washington University Law School</div>
   </footer>
 
 </div>
