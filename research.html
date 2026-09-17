@@ -38,11 +38,13 @@ header{border-bottom:1px solid var(--rule);padding-bottom:19px;margin-bottom:30p
 .hdrtext{min-width:0}
 h1{font-size:1.6rem;font-weight:500;margin:0 0 4px;letter-spacing:-.01em}
 [lang="zh-Hans"],[lang^="zh"]{font-family:"Noto Serif SC",Georgia,"Songti SC","SimSun",serif}
+h1 [lang^="zh"], h2 [lang^="zh"], .name [lang^="zh"]{font-size:.70em}
 .role{font-family:var(--mono);font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--soft)}
 .contact{margin-top:6px;font-family:var(--mono);font-size:.76rem;color:var(--soft);letter-spacing:.02em}
 nav{margin-top:12px;font-family:var(--mono);font-size:.8rem;letter-spacing:.04em;margin-left:-9px;display:flex;gap:4px;flex-wrap:wrap}
 nav a,nav span.here{display:inline-block;padding:7px 9px}
 nav a{color:var(--accent);border-bottom:0}
+nav a:hover{color:var(--text)}
 nav span.here{color:var(--text);position:relative}
 nav span.here::after{content:"";position:absolute;left:9px;right:9px;bottom:6px;border-bottom:1px solid var(--text)}
 .portrait{width:var(--psize,168px);height:var(--psize,168px);object-fit:cover;border-radius:3px;flex:0 0 auto}
@@ -82,9 +84,7 @@ code{font-family:var(--mono);font-size:.9em}
 html{font-size:calc(18.7px + var(--fluid) * 0.0309)}
 section > p, section > ul, section > .tags, .biotext{max-width:calc(604px + var(--fluid))}
 .portrait{width:calc(var(--psize,168px) + var(--fluid) * 0.199);height:calc(var(--psize,168px) + var(--fluid) * 0.199)}
-.wrap{max-width:calc(var(--frame,calc(var(--max) + 320px)) + var(--fluid) * 1.199);min-height:100vh;display:flex;flex-direction:column}
-body{min-height:100vh}
-footer{margin-top:auto}
+.wrap{max-width:calc(var(--frame,calc(var(--max) + 320px)) + var(--fluid) * 1.199)}
 </style>
 </head>
 <body>
