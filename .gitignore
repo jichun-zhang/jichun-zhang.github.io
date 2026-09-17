@@ -1,0 +1,7 @@
+# Working files live on the Pi, never in the published site.
+# The publish script copies only the files the rendered pages reference, so these are belt-and-braces.
+portrait.source*.jpg
+portrait.previous.jpg
+portrait.sketch.jpg
+*.zip
+*.bak
