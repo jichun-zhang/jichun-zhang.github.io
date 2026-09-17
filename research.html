@@ -18,16 +18,16 @@ html{font-size:18.7px}
 body{margin:0;background:var(--bg);color:var(--text);font-family:var(--serif);line-height:1.62;-webkit-font-smoothing:antialiased}
 .wrap{max-width:var(--frame,calc(var(--max) + 320px));margin:0 auto;padding:64px 26px 88px}
 section > p, section > ul, section > .tags{max-width:var(--max)}
-header{border-bottom:1px solid var(--rule);padding-bottom:16px;margin-bottom:30px;display:flex;align-items:center;justify-content:space-between;gap:30px}
+header{border-bottom:1px solid var(--rule);padding-bottom:19px;margin-bottom:30px;display:flex;align-items:center;justify-content:space-between;gap:30px}
 .hdrtext{min-width:0}
 h1{font-size:1.6rem;font-weight:500;margin:0 0 4px;letter-spacing:-.01em}
 .role{font-family:var(--mono);font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--soft)}
 .contact{margin-top:6px;font-family:var(--mono);font-size:.76rem;color:var(--soft);letter-spacing:.02em}
-nav{margin-top:12px;font-family:var(--mono);font-size:.8rem;letter-spacing:.04em;margin-left:-9px}
-nav a,nav span.here{display:inline-block;margin-right:6px;padding:7px 9px}
+nav{margin-top:12px;font-family:var(--mono);font-size:.8rem;letter-spacing:.04em;margin-left:-9px;display:flex;gap:4px;flex-wrap:wrap}
+nav a,nav span.here{display:inline-block;padding:7px 9px}
 nav a{color:var(--accent);border-bottom:0}
 nav span.here{color:var(--text);position:relative}
-nav span.here::after{content:"";position:absolute;left:9px;right:9px;bottom:5px;border-bottom:1px solid var(--text)}
+nav span.here::after{content:"";position:absolute;left:9px;right:9px;bottom:6px;border-bottom:1px solid var(--text)}
 .portrait{width:var(--psize,168px);height:var(--psize,168px);object-fit:cover;border-radius:3px;flex:0 0 auto}
 .bioflex{display:flex;gap:var(--pgap,30px);align-items:flex-start}
 .biorow{display:flex;gap:44px;align-items:flex-start}
