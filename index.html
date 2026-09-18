@@ -31,7 +31,7 @@
   --max:604px;
 }
 *{box-sizing:border-box}
-html{font-size:18.7px}
+html{font-size:14px}
 body{margin:0;background:var(--bg);color:var(--text);font-family:var(--serif);line-height:1.35;-webkit-font-smoothing:antialiased}
 .wrap{max-width:var(--frame,calc(var(--max) + 320px));margin:0 auto;padding:64px 26px 88px}
 section > p, section > ul, section > .tags{max-width:var(--max)}
@@ -81,10 +81,10 @@ a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(42,65,91
 code{font-family:var(--mono);font-size:.9em}
 .pdfwrap iframe{width:100%;height:78vh;min-height:520px;border:1px solid var(--rule);background:#fff}
 .pdfnote{font-family:var(--mono);font-size:.72rem;color:var(--soft);margin-top:10px}
-@media (max-width:520px){html{font-size:17.2px}.wrap{padding:40px 18px 64px}}
+@media (max-width:520px){html{font-size:14px}.wrap{padding:40px 18px 64px}}
 @media print{body{background:#fff}.wrap{padding:0}.ph{color:#666}}
 :root{--fluid:clamp(0px,calc((100vw - 1200px) * 0.155),108px)}
-html{font-size:calc(18.7px + var(--fluid) * 0.0309)}
+html{font-size:calc(14px + var(--fluid) * 0.0309)}
 section > p, section > ul, section > .tags, .biotext{max-width:calc(604px + var(--fluid))}
 .portrait{width:calc(var(--psize,168px) + var(--fluid) * 0.199);height:calc(var(--psize,168px) + var(--fluid) * 0.199)}
 .wrap{max-width:calc(var(--frame,calc(var(--max) + 320px)) + var(--fluid) * 1.199)}
