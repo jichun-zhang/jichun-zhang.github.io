@@ -24,6 +24,7 @@
 @font-face{font-family:"Noto Serif SC";font-style:normal;font-weight:400 500;font-display:swap;src:url("./noto-serif-sc.woff2") format("woff2");}
 :root{
   --bg:#FAF8F5; --text:#1A1A1A; --soft:#948f8f; --accent:#46678b;
+  --nav:#4a5a70;
   --rule:#D8D4CD; --wash:#F3EEE6;
   --serif:"Source Serif 4",Georgia,"Songti SC","SimSun","Microsoft YaHei",serif;
   --mono:"Source Serif 4",Georgia,"Songti SC","SimSun","Microsoft YaHei",serif;
@@ -43,7 +44,7 @@ h1 [lang^="zh"], h2 [lang^="zh"], .name [lang^="zh"]{font-size:.77em;vertical-al
 .contact{margin-top:6px;font-family:var(--mono);font-size:.76rem;color:var(--soft);letter-spacing:.02em}
 nav{margin-top:16px;font-family:var(--mono);font-size:.8rem;letter-spacing:.04em;margin-left:-9px;display:flex;gap:4px;flex-wrap:wrap}
 nav a,nav span.here{display:inline-block;padding:7px 9px}
-nav a{color:var(--accent);border-bottom:0}
+nav a{color:var(--nav);border-bottom:0}
 nav a:hover{color:var(--text)}
 nav span.here{color:var(--text);position:relative}
 nav span.here::after{content:"";position:absolute;left:9px;right:9px;bottom:6px;border-bottom:1px solid var(--text)}
