@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Jichun Zhang">
   <style>
     /* #-comment: the paper icon for light chrome, the ink icon for dark chrome, in one file. */
-    .bg { fill: #FAF8F5 }
+    .bg { fill: #F6F5F3 }
     .fg { fill: #1A1A1A }
-    @media (prefers-color-scheme: dark) { .bg { fill: #1A1A1A } .fg { fill: #FAF8F5 } }
+    @media (prefers-color-scheme: dark) { .bg { fill: #1A1A1A } .fg { fill: #F6F5F3 } }
   </style>
   <rect class="bg" width="512" height="512" rx="113"/>
   <g class="fg" transform="translate(256 256) scale(0.33912) translate(-469.0 262.5)">
