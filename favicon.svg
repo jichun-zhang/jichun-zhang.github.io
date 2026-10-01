@@ -1,13 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Jichun Zhang">
   <style>
-    /* #-comment: the site's palette and nothing else - paper field, ink letter.
-       No outline: on white chrome the tile simply disappears and you see the letter,
-       which is exactly how the site looks; on dark chrome the paper tile appears. */
-    .field { fill: #FCFDFF }
+    /* #-comment: white tile, black initials. */
+    .field { fill: #FFFFFF }
     .letter { fill: #1A1D21 }
-    @media (prefers-color-scheme: dark) { .field { fill: #F1F0EE } }
   </style>
   <rect class="field" width="64" height="64" rx="14"/>
-  <text class="letter" x="32" y="46" font-family="Inter, sans-serif" font-size="44" font-weight="800"
-        text-anchor="middle">J</text>
+  <text class="letter" x="32" y="43" font-family="Inter, sans-serif" font-size="36" font-weight="800"
+        letter-spacing="-2" text-anchor="middle">JZ</text>
 </svg>
