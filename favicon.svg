@@ -1,11 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Jichun Zhang">
   <style>
-    /* #-comment: inverted mark - ink field, paper J. Single letter, no serifs, so it holds at 16px. */
-    .field { fill: #1A1D21 }
-    .letter { fill: #FCFDFF }
-    @media (prefers-color-scheme: dark) { .field { fill: #FCFDFF } .letter { fill: #1A1D21 } }
+    /* #-comment: C reversed - paper field, ink initials, heavy sans, tight tracking. */
+    .field { fill: #FCFDFF }
+    .edge  { fill: none; stroke: rgba(26,29,33,.16); stroke-width: 1.5 }
+    .letter { fill: #1A1D21 }
+    @media (prefers-color-scheme: dark) { .field { fill: #ECEDEF } }
   </style>
   <rect class="field" width="64" height="64" rx="14"/>
-  <text class="letter" x="32" y="47" font-family="Inter, sans-serif" font-size="46" font-weight="800"
-        text-anchor="middle">J</text>
+  <rect class="edge" x="0.75" y="0.75" width="62.5" height="62.5" rx="13.5"/>
+  <text class="letter" x="31" y="43" font-family="Inter, sans-serif" font-size="30" font-weight="800"
+        letter-spacing="-1.2" text-anchor="middle">JZ</text>
 </svg>
